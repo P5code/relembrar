@@ -69,7 +69,7 @@ int main(){
 
 }*/
 
-*/#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 
 int main(){
@@ -104,6 +104,7 @@ int main(){
 	
 }*/
 
+/*
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -141,4 +142,36 @@ int main(){
 	}
 	
 	system("pause");
+}
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	int n;
+	
+	printf("digite um numero inteiro: \n");
+	scanf("%d",&n);
+	
+	if(n<10){
+		
+		printf("o numero digitado tem 1 digito\n");
+		
+	}else
+		if(n<100){
+			
+			printf("o numero digitado tem 2\n");
+			
+		}else
+			if(n<1000){
+				
+				printf("o numero digitado tem 3 digitos\n");
+			}
+			
+	system ("pause");
+	return 0;
+				
+	
 }
