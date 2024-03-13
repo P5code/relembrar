@@ -145,7 +145,7 @@ int main(){
 }
 */
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 int main(){
@@ -174,4 +174,27 @@ int main(){
 	return 0;
 				
 	
+}
+*/
+#include<stdio.h>
+#include<locale.h>
+
+int main(){
+	
+	int num;
+	
+	setlocale(LC_ALL,"Portuguese");
+	printf("\n Informe o numero: \n\n");
+	scanf("%d",&num);
+	
+	if(num%5 == 0){
+		
+		printf("\n O numero %d é divisivel por 5",num);
+		
+	}else
+		{
+			printf("\n O numero %d nao é divisivel por 5",num);
+			
+		}
+	return 0;
 }
